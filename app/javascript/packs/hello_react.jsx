@@ -4,23 +4,12 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
-import PropTypes from "prop-types";
 
-const Hello = props => (
-  <div class="container bg-blue-300">Hello {props.name}!</div>
-);
-
-Hello.defaultProps = {
-  name: "David"
-};
-
-Hello.propTypes = {
-  name: PropTypes.string
-};
+import Root from "./Root";
 
 document.addEventListener("DOMContentLoaded", () => {
   ReactDOM.render(
-    <Hello name="React" />,
+    <Root />,
     document.body.appendChild(document.createElement("div"))
   );
 });
