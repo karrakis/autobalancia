@@ -4,7 +4,7 @@ export const MiddleBar = () => {
   return (
     <div
       id="middlebar"
-      class="w-full h-8 bg-gray-900 border-t border-b border-gray-500 shadow-inner"
+      class="w-full h-8 bg-gray-800 border-t border-b border-green-600 shadow-inner"
     />
   );
 };

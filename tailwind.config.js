@@ -5,7 +5,8 @@ module.exports = {
         frame: "calc(100% - 1.1rem)"
       },
       width: {
-        frame: "calc(100% - 1.1rem)"
+        frame: "calc(100% - 1.1rem)",
+        hand: "31.5rem"
       }
     }
   },
