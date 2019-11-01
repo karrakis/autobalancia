@@ -6,7 +6,7 @@ import AntagonistField from "./PlayerField/AntagonistField.jsx";
 
 export const Game = () => {
   return (
-    <div class="w-frame h-frame bg-black flex flex-col">
+    <div className="w-frame h-frame bg-black flex flex-col">
       <PlayerZone>
         <AntagonistField />
       </PlayerZone>

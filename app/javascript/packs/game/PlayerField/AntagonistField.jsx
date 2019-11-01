@@ -3,14 +3,20 @@ import Deck from "./Components/Deck.jsx";
 import Hand from "./Components/Hand.jsx";
 import Discard from "./Components/Discard.jsx";
 import Card from "./Components/Card";
+import Wave from "../../images/The-Great-Wave-off-Kanagawa.jpg";
 
 export const AntagonistField = () => {
   return (
-    <div class="w-full h-full flex items-start justify-left">
-      <div class="flex justify-start w-full">
+    <div
+      className="w-full h-full flex items-start justify-left bg-center bg-no-repeat bg-cover"
+      style={{
+        backgroundImage: `url(${Wave})`
+      }}
+    >
+      <div className="flex justify-start w-full">
         <Deck />
       </div>
-      <div class="">
+      <div className="">
         <Hand>
           <Card />
           <Card />
@@ -18,7 +24,7 @@ export const AntagonistField = () => {
           <Card />
         </Hand>
       </div>
-      <div class="flex justify-end w-full">
+      <div className="flex justify-end w-full">
         <Discard />
       </div>
     </div>
